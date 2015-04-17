@@ -4,8 +4,7 @@ ofxPointInMesh
 Introduction
 ------------
 A straightforward C++ openFrameworks addon to check if a 3D point ([ofVec3f](http://www.openframeworks.cc/documentation/math/ofVec3f.html)) is inside a closed 3D [ofMesh](http://openframeworks.cc/documentation/3d/ofMesh.html).
-
-For this it uses the [Möller–Trumbore ray-triangle intersection algorithm](http://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm).
+To determine this, it uses the [Möller–Trumbore ray-triangle intersection algorithm](http://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm).
 
 Usage
 -----
@@ -20,7 +19,7 @@ You can use openFrameworks' ProjectGenerator to generate project files for other
 
 Author
 ------
-Created by [Amnon Owed](http://vimeo.com/amnon) / [@AmnonOwed](https://twitter.com/AmnonOwed).
+Created by [Amnon Owed](http://vimeo.com/amnon) / [@AmnonOwed](https://twitter.com/AmnonOwed)
 
 License
 -------
@@ -42,8 +41,7 @@ Known issues
 ------------
 The ofMesh mode must be OF_PRIMITIVE_TRIANGLES to use this addon.
 Assumes, but doesn't check, it is a closed 3D mesh.
-
-For bugs, please use this repository's issue tracker.
+For bugs, please use [this repository's issue tracker](https://github.com/AmnonOwed/ofxPointInMesh/issues).
 
 Version history
 ------------
